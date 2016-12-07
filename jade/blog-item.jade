@@ -6,11 +6,9 @@ DOCTYPE
 			meta(name="description", content="")
 			meta(name="author", content="")
 			title Flat theme
-			link(href="jade/css/font-awesome.min.css", rel="stylesheet")
+			link(href="../css/font-awesome.min.css", rel="stylesheet")
 			
-			link(href="jade/css/estilos.sass", rel="stylesheet")
-			link(href="jade/css/estilos.css", rel="stylesheet")
-			
+			link(href="../css/estilos.css", rel="stylesheet")
 			link(type="text/css", rel="stylesheet", href="../materialize/css/materialize.min.css")  
 			link(type="text/css", rel="stylesheet", href="../materialize/css/materialize.css")
 			link(rel="shortcut icon", href="images/ico/favicon.ico")
@@ -40,15 +38,15 @@ DOCTYPE
 								a(href="blog.html") Blog
 							li
 								a(href="contact-us.html") Contact
-			section
+			section.green.white-text.padd-secc
 				div.container
 					div.row
 						div.col.s6
 							h5 Blog Item
-							p Pallentesque habitant mobi tristique et neus et malesuada
+							p.thin Pallentesque habitant mobi tristique et neus et malesuada
 						div.col.s6
-							strong Home / Pages/ Blog Item
-			section
+							strong.right Home / Pages/ Blog Item
+			section.padd-secc
 				div.container
 					div.row
 						div.col.s8
@@ -57,12 +55,12 @@ DOCTYPE
 									div.card-image
 										img(src="../images/blog/blog2.jpg").responsive-img
 										h5 Conubia nostra per inceptos himenaeos
-										span.icon-user John
-										span.icon-folder-close Bootstrap
-										span.icon-calendar Sept 16th, 2012
-										span.icon-comment 0 comments
+										span.icon-user.right10  John
+										span.icon-folder-close.right10  Bootstrap
+										span.icon-calendar.right10  Sept 16th, 2012
+										span.icon-comment.right10  0 comments
 										h6 <strong> Proin gravida nibh vel velit auctor aliquet. Aenean solicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amt dibh vulpatate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent teciti sociosqu ad litora torquent per conubia nostra, pero inceptos himenaeos.
-										p Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. 
+										p.font12 Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. 
 										p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 										hr
 										span: i.material-icons style
@@ -74,7 +72,7 @@ DOCTYPE
 											p Wordpress
 										div.chip
 											p Joomla
-										div.row
+										div.row.grey.lighten-3.pad-avatar
 											div.col.s2
 												img(src="../images/blog/avatar.jpg")
 											div.col.s10
@@ -84,30 +82,29 @@ DOCTYPE
 										div.row
 											div.col.s2
 												img(src="../images/blog/avatar1.png").circle
-											div.col.s10
-												span.title John Doe
-												i.material-icons replay
+											div.col.s10.grey.lighten-3.pad-avatar
+												span.title John Doe Aug 2013
+												i.material-icons.right replay
 												p Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugit vitae, ultricies eget, tempor sirt amet, ante.
 										div.row
 											div.col.s3
 												img(src="../images/blog/avatar3.png").circle
-											div.col.s9
-												span.title John Doe
-												p 27 Aug 2013
-												i.material-icons replay
+											div.col.s9.grey.lighten-3.pad-avatar
+												span.title John Doe 27 Aug 2013
+												i.material-icons.right replay
 												p Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugit vitae, ultricies eget, tempor sirt amet, ante
 										div.row
 											div.col.s2
 												img(src="../images/blog/avatar2.png").circle
-											div.col.s10
-												span.title John Doe
-												i.material-icons replay
+											div.col.s10.grey.lighten-3.pad-avatar
+												span.title John Doe Aug 2013
+												i.material-icons.right replay
 												p Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugit vitae, ultricies eget, tempor sirt amet, ante.
 										h5 Leave a comment
 										div.row
 											div.col.s6
 												form
-													imput(type="text", placeholder="Name")
+													input(type="text", placeholder="Name")
 											div.col.s6
 												form
 													input(type="text", placeholder="Email")
@@ -122,35 +119,35 @@ DOCTYPE
 									div.nav-wrapper
 										form
 											div.input-field
-												input(type="search")#search
-												label(for="search") Enter your mail
-												i.mateial-icons search
+												input#search(type="search")
+												label(for="search") Search
+												i.material-icons search
 							div.row
 								div.col.s6
-									img(src="../images/ads/ad1.png")
+									img(src="../images/ads/ad1.png").responsive-img
 								div.col.s6
-									img(src="../images/ads/ad2.png")
+									img(src="../images/ads/ad2.png").responsive-img
 							div.row
 								div.col.s6
-									img(src="../images/ads/ad3.png")
+									img(src="../images/ads/ad3.png").responsive-img
 								div.col.s6
-									img(src="../images/ads/ad4.png")
+									img(src="../images/ads/ad4.png").responsive-img
 							h5 Blog Categories
 							div.row
 								div.col.s6
 									ul
-										li Development
-										li Design
-										li Updates
-										li Tutoiral
-										li News
+										li * Development
+										li * Design
+										li * Updates
+										li * Tutoriral
+										li * News
 								div.col.s6
 									ul
-										li Joomla
-										li Wordpress
-										li Drupal
-										li Magento
-										li Bootstrap
+										li * DJoomla
+										li * Wordpress
+										li * Drupal
+										li * Magento
+										li * Bootstrap
 							div.row
 								div.col.s12
 									h5 Tag Cloud
@@ -173,7 +170,6 @@ DOCTYPE
 									div.chip
 										p Update
 									h5 Facebook Fanpage
-
 			section.blue-grey.darken-2.padd-secc
 				div.container
 					div.row.white-text
@@ -200,11 +196,13 @@ DOCTYPE
 								div.col.s10.thin.font12
 									p.left25.top Pallentesque habitant mobi tristique 
 									span Posted 17 Aug 2013
+							div.row
 								div.col.s2
 									img(src="../images/blog/thumb2.jpg").right5
 								div.col.s10.thin.font12
 									p.left25.top Pallentesque habitant mobi tristique 
 									span Posted 17 Aug 2013
+							div.row
 								div.col.s2
 									img(src="../images/blog/thumb3.jpg").right5
 								div.col.s10.thin.font12
@@ -219,8 +217,8 @@ DOCTYPE
 								div.nav-wrapper
 									form
 										div.input-field
-											input#search
-											label Enter your Email
+											input(type="search", required)#search
+											label(for="search") Enter your Email
 											i.material-icons send
 
 			footer.blue-grey.darken-2.white-text.thin
@@ -237,6 +235,7 @@ DOCTYPE
 										li: a(href="contact-us.html") Contact Us
 										li: a(href="x").material-icons expand_less
 
+										
 		script(type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js")
 		script(type="text/javascript" src="../materialize/js/materialize.min.js")
 		script(src="js/main.js")

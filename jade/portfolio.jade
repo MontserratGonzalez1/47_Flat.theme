@@ -6,10 +6,9 @@ DOCTYPE
 			meta(name="description", content="")
 			meta(name="author", content="")
 			title Flat theme
-			link(href="jade/css/font-awesome.min.css", rel="stylesheet")
+			link(href="../css/font-awesome.min.css", rel="stylesheet")
 			
-			link(href="jade/css/estilos.sass", rel="stylesheet")
-			link(href="jade/css/estilos.css", rel="stylesheet")
+			link(href="../css/estilos.css", rel="stylesheet")
 			
 			link(type="text/css", rel="stylesheet", href="../materialize/css/materialize.min.css")  
 			link(type="text/css", rel="stylesheet", href="../materialize/css/materialize.css")
@@ -40,15 +39,15 @@ DOCTYPE
 								a(href="blog.html") Blog
 							li
 								a(href="contact-us.html") Contact
-			section
+			section.green.white-text.padd-secc
 				div.container
 					div.row
 						div.col.s6
 							h5 Portfolio
-							p Pallentesque habitant mobi tristique et neus et malesuada
+							p.thin Pallentesque habitant mobi tristique et neus et malesuada
 						div.col.s6
-							strong Home / Portfolio
-			section
+							strong.right Home / Portfolio
+			section.padd-secc
 				div.container
 					div.row
 						div.col.s4
@@ -90,11 +89,13 @@ DOCTYPE
 								div.col.s10.thin.font12
 									p.left25.top Pallentesque habitant mobi tristique 
 									span Posted 17 Aug 2013
+							div.row
 								div.col.s2
 									img(src="../images/blog/thumb2.jpg").right5
 								div.col.s10.thin.font12
 									p.left25.top Pallentesque habitant mobi tristique 
 									span Posted 17 Aug 2013
+							div.row
 								div.col.s2
 									img(src="../images/blog/thumb3.jpg").right5
 								div.col.s10.thin.font12
@@ -109,8 +110,8 @@ DOCTYPE
 								div.nav-wrapper
 									form
 										div.input-field
-											input#search
-											label Enter your Email
+											input(type="search", required)#search
+											label(for="search") Enter your Email
 											i.material-icons send
 
 			footer.blue-grey.darken-2.white-text.thin
@@ -125,7 +126,8 @@ DOCTYPE
 										li: a(href="index.html") Home
 										li: a(href="about-us.html") About Us
 										li: a(href="contact-us.html") Contact Us
-										li: a(href="x").material-icons expand_less 
+										li: a(href="x").material-icons expand_less
+		
 
 		script(type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js")
 		script(type="text/javascript" src="../materialize/js/materialize.min.js")

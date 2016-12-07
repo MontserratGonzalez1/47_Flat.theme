@@ -7,9 +7,8 @@
       <meta name="description" content=""/>
       <meta name="author" content=""/>
       <title>Flat theme</title>
-      <link href="jade/css/font-awesome.min.css" rel="stylesheet"/>
-      <link href="jade/css/estilos.sass" rel="stylesheet"/>
-      <link href="jade/css/estilos.css" rel="stylesheet"/>
+      <link href="../css/font-awesome.min.css" rel="stylesheet"/>
+      <link href="../css/estilos.css" rel="stylesheet"/>
       <link type="text/css" rel="stylesheet" href="../materialize/css/materialize.min.css"/>
       <link type="text/css" rel="stylesheet" href="../materialize/css/materialize.css"/>
       <link rel="shortcut icon" href="images/ico/favicon.ico"/>
@@ -35,13 +34,13 @@
           </div>
         </nav>
       </header>
-      <section>
+      <section class="green">
         <div class="slider">
           <ul class="slides">
             <li><img class="responsive-img" src="../images/slider/bg1.jpg"/>
               <div class="caption center-align">
                 <h3>Powerful and Responsive Web Design</h3>
-                <h5 class="light grey-text text-lighten-3">Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas //</h5>
+                <h5 class="light grey-text text-lighten-3">Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas </h5>
               </div>
             </li>
             <li><img class="responsive-img" src="../images/slider/bg2.jpg"/>
@@ -59,7 +58,7 @@
           </ul>
         </div>
       </section>
-      <section class="green">
+      <section class="green padd-secc">
         <div class="container">
           <div class="row white-text">
             <div class="col s4 mar-bott30"><span class="icon icon-twitter">
@@ -78,7 +77,7 @@
         <div class="container">
           <div class="row">
             <div class="col s3">
-              <h5>Ou latest Project</h5>
+              <h5>Our latest Project</h5>
               <p>Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas.</p>
             </div>
             <div class="col s3"><img class="responsive-img" src="../images/portfolio/recent/item1.png"/></div>
@@ -145,10 +144,14 @@
                 <div class="col s10 thin font12">
                   <p class="left25 top">Pallentesque habitant mobi tristique </p><span>Posted 17 Aug 2013</span>
                 </div>
+              </div>
+              <div class="row">
                 <div class="col s2"><img class="right5" src="../images/blog/thumb2.jpg"/></div>
                 <div class="col s10 thin font12">
                   <p class="left25 top">Pallentesque habitant mobi tristique </p><span>Posted 17 Aug 2013</span>
                 </div>
+              </div>
+              <div class="row">
                 <div class="col s2"><img class="right5" src="../images/blog/thumb3.jpg"/></div>
                 <div class="col s10 thin font12">
                   <p class="left25 top">Pallentesque habitant mobi tristique </p><span>Posted 17 Aug 2013</span>
@@ -163,8 +166,8 @@
                 <div class="nav-wrapper">
                   <form>
                     <div class="input-field">
-                      <input id="search"/>
-                      <label>Enter your Email</label><i class="material-icons">send</i>
+                      <input type="search" required="required" id="search"/>
+                      <label for="search">Enter your Email</label><i class="material-icons">send</i>
                     </div>
                   </form>
                 </div>

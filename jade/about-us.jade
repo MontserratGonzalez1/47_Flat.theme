@@ -6,11 +6,10 @@ DOCTYPE
 			meta(name="description", content="")
 			meta(name="author", content="")
 			title Flat theme
-			link(href="jade/css/font-awesome.min.css", rel="stylesheet")
+			link(href="../css/font-awesome.min.css", rel="stylesheet")
 			
-			link(href="jade/css/estilos.sass", rel="stylesheet")
-			link(href="jade/css/estilos.css", rel="stylesheet")
-			
+			link(href="../css/estilos.css", rel="stylesheet")
+			link(href="../css/estilos.sasss", rel="stylesheet")  NO JALA CON SASS
 			link(type="text/css", rel="stylesheet", href="../materialize/css/materialize.min.css")  
 			link(type="text/css", rel="stylesheet", href="../materialize/css/materialize.css")
 			link(rel="shortcut icon", href="images/ico/favicon.ico")
@@ -40,68 +39,70 @@ DOCTYPE
 								a(href="blog.html") Blog
 							li
 								a(href="contact-us.html") Contact
-			section
+			section.green.white-text.padd-secc
 				div.container
 					div.row
 						div.col.s6
 							h5 About Us
-							p Pallentesque habitant mobi tristique et neus et malesuada
+							p.thin Pallentesque habitant mobi tristique et neus et malesuada
 						div.col.s6
-							strong Home /About Us
-			section
+							strong.right Home /About Us
+			section.padd-secc
 				div.row.container
 					div.col.s6
 						h5 What We Are
-						p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+						p.font12 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 					div.col.s6
 						h5 Our Skills
 						div.progress
-							div.determinate(style="width:70%")
+							div.determinate(style="width:70%").red
 						div.progress
-							div.determinate(style="width:70%")
+							div.determinate(style="width:70%").green
 						div.progress
-							div.determinate(style="width:70%")
+							div.determinate(style="width:70%").blue
 						div.progress
-							div.determinate(style="width:70%")
+							div.determinate(style="width:70%").cyan
 						div.progress
-							div.determinate(style="width:70%")
-				div.row.container.center
+							div.determinate(style="width:70%").yellow
+				div.row.container.center.padd-secc
 					div.col.s12
 						h5 Meet the Team
 						strong Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas.
 					div.row
-						div.col.s3
-							img(src="../images/team-member.jpg")
+						div.col.s3.top40
+							img(src="../images/team-member.jpg").circle.mar-bott30
 							strong David J. Robbins <br>
-							span Senior Vice Robbins <br>
-							strong Morbi accumsan ipsum velit. Nam nec <br> tellus a odio tincidunt auctor.
+							span.thin Senior Vice Robbins <br>
+							strong Morbi accumsan ipsum velit. Nam nec <br> tellus a odio tincidunt auctor. <br>
 							span.icon-facebook
 							span.icon-google-plus
 							span.icon-twitter
 							span.icon-linkedin-sign
-						div.col.s3
-							img(src="../images/team-member.jpg")
+						div.col.s3.top40
+							img(src="../images/team-member.jpg").circle.mar-bott30
 							strong David J. Robbins <br>
-							span Senior Vice Robbins <br>
-							strong Morbi accumsan ipsum velit. Nam nec <br> tellus a odio tincidunt auctor.
+							span.thin Senior Vice Robbins <br>
+							strong Morbi accumsan ipsum velit. Nam nec <br> tellus a odio tincidunt auctor. <br>
 							span.icon-facebook
 							span.icon-google-plus
 							span.icon-twitter
 							span.icon-linkedin-sign
-						div.col.s3
-							img(src="../images/team-member.jpg")
+						div.col.s3.top40
+							img(src="../images/team-member.jpg").circle.mar-bott30
 							strong David J. Robbins <br>
-							span Senior Vice Robbins <br>
+							span.thin Senior Vice Robbins <br>
 							strong Morbi accumsan ipsum velit. Nam nec <br> tellus a odio tincidunt auctor.
+							<br>
 							span.icon-facebook
 							span.icon-google-plus
 							span.icon-twitter
 							span.icon-linkedin-sign
-						div.col.s3
-							img(src="../images/team-member.jpg")
+						div.col.s3.top40
+							img(src="../images/team-member.jpg").circle.mar-bott30
 							strong David J. Robbins <br>
-							span Senior Vice Robbins <br>
+							span.thin Senior Vice Robbins <br>
 							strong Morbi accumsan ipsum velit. Nam nec <br> tellus a odio tincidunt auctor.
+							<br>
 							span.icon-facebook
 							span.icon-google-plus
 							span.icon-twitter
@@ -132,11 +133,13 @@ DOCTYPE
 								div.col.s10.thin.font12
 									p.left25.top Pallentesque habitant mobi tristique 
 									span Posted 17 Aug 2013
+							div.row
 								div.col.s2
 									img(src="../images/blog/thumb2.jpg").right5
 								div.col.s10.thin.font12
 									p.left25.top Pallentesque habitant mobi tristique 
 									span Posted 17 Aug 2013
+							div.row
 								div.col.s2
 									img(src="../images/blog/thumb3.jpg").right5
 								div.col.s10.thin.font12
@@ -151,8 +154,8 @@ DOCTYPE
 								div.nav-wrapper
 									form
 										div.input-field
-											input#search
-											label Enter your Email
+											input(type="search", required)#search
+											label(for="search") Enter your Email
 											i.material-icons send
 
 			footer.blue-grey.darken-2.white-text.thin
