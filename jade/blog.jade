@@ -41,71 +41,111 @@ DOCTYPE
 							li
 								a(href="contact-us.html") Contact
 			section
-				div.slider
-					ul.slides
-						li
-							img(src="../images/slider/bg1.jpg").responsive-img
-							div.caption.center-align
-								h3 Powerful and Responsive Web Design
-								h5.light.grey-text.text-lighten-3 Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas //
-						li
-							img(src="../images/slider/bg2.jpg").responsive-img
-							div.caption.left-align
-								h3 Powerful and Responsive Web Design
-								h5.light.grey-text.text-lighten-3 Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas
-						li
-							img(src="../images/slider/bg3.jpg").responsive-img
-							div.caption.right-align
-								h3 Powerful and Responsive Web Design
-								h5.light.grey-text.text-lighten-3 Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas 
-			
-			section.green
-				div.container
-					div.row.white-text
-						div.col.s4.mar-bott30
-							span.icon.icon-twitter
-								h5 Twitter Marketing
-								p.left40.thin Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugit vitae.
-						div.col.s4.mar-bott30
-							span.icon.icon-facebook
-								h5 Facebook Marketing
-								p.left40.thin Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugit vitae.
-						div.col.s4.mar-bott30
-							span.icon.icon-google-plus
-								h5 Google Plus Marketing
-								p.left40.thin Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugit vitae.
-			section.padd-secc
 				div.container
 					div.row
-						div.col.s3
-							h5 Ou latest Project
-							p Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas.
-						div.col.s3
-							img(src="../images/portfolio/recent/item1.png").responsive-img
-						div.col.s3
-							img(src="../images/portfolio/recent/item2.png").responsive-img
-						div.col.s3
-							img(src="../images/portfolio/recent/item3.png").responsive-img
-			section.red.accent-2.padd-secc.white-text 
+						div.col.s6
+							h5 Blog
+							p Pallentesque habitant mobi tristique et neus et malesuada
+						div.col.s6
+							strong Home / Blog
+			section
 				div.container
 					div.row
-						div.col.s12.m12.l12.center
-							h4 What our clients say
-							p.thin Pallentesque habitant mobi tristique et neus et malesuada fames ac turpis egestas.
-						div.row
-							div.col.s6
-								p.lorem Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-								pan.thin -Someone famous in Source Title
-							div.col.s6
-								p.lorem Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-								pan.thin -Someone famous in Source Title
-						div.row
-							div.col.s6
-								p.lorem Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-								pan.thin -Someone famous in Source Title
-							div.col.s6
-								p.lorem Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-								pan.thin -Someone famous in Source Title
+						div.col.s8
+							div.row
+								div.col.s12
+									div.card
+										div.card-image
+											img(src="../images/blog/blog1.jpg")
+										div.card-content
+											h5 Duis sed odio sit amet nibh vulputate cursus
+											span.icon-user John
+											span.icon-folder-close Bootstrap
+											span.icon.calendar Sept 16th, 2012
+											span.icon-comment 3 comments
+											p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+										div.card-action
+											a(href="blog-item.html") Read More
+							div.row
+								div.col.s12
+									div.card
+										div.card-image
+											img(src="../images/blog/blog2.jpg")
+										div.card-content
+											h5 Conubia nostra per inceptos himenaeos
+											span.icon-user John
+											span.icon-folder-close Bootstrap
+											span.icon.calendar Sept 16th, 2012
+											span.icon-comment 0 comments
+											p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+										div.card-action
+											a(href="blog-item.html") Read More
+
+									ul.pagination
+										li.disabled: a(href="x"): i.material-icons chevron_left 
+										li.active: a(href="x") 1
+										li.active: a(href="x") 2
+										li.active: a(href="x") 3
+										li.active: a(href="x") 4
+										li.active: a(href="x") 5
+										li.disabled: a(href="x"): i.material-icons chevron_right
+						div.col.s4
+							div.row
+								nav
+									div.nav-wrapper
+										form
+											div.input-field
+												input#search(type="search")
+												label(for="search") Enter your Email
+												i.material-icons search
+							div.row
+								div.col.s6
+									img(src="../images/ads/ad1.png").responsive-img
+								div.col.s6
+									img(src="../images/ads/ad2.png").responsive-img
+							div.row
+								div.col.s6
+									img(src="../images/ads/ad3.png").responsive-img
+								div.col.s6
+									img(src="../images/ads/ad4.png").responsive-img
+							h5 Blog Categories
+							div.row
+								div.col.s6
+									ul
+										li Development
+										li Design
+										li Updates
+										li Tutoiral
+										li News
+								div.col.s6
+									ul
+										li DJoomla
+										li Wordpress
+										li Drupal
+										li Magento
+										li Bootstrap
+							div.row
+								div.col.s12
+									h5 Tag Cloud
+									div.chip
+										p CSS3
+									div.chip
+										p HTML5
+									div.chip
+										p Wordpress
+									div.chip
+										p Joomla
+									div.chip
+										p Drupal
+									div.chip
+										p Bootstrap
+									div.chip
+										p jQuery
+									div.chip
+										p Tutorial
+									div.chip
+										p Update
+									h5 Facebook Fanpage
 			section.blue-grey.darken-2.padd-secc
 				div.container
 					div.row.white-text
@@ -167,10 +207,9 @@ DOCTYPE
 										li: a(href="index.html") Home
 										li: a(href="about-us.html") About Us
 										li: a(href="contact-us.html") Contact Us
-										li: a(href="x").material-icons expand_less
+										li: a(href="x").material-icons expand_less 
 
-					
-				
+
 		script(type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js")
 		script(type="text/javascript" src="../materialize/js/materialize.min.js")
 		script(src="js/main.js")
